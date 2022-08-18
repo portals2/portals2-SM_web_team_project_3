@@ -29,10 +29,6 @@
         <div class="line3"></div>
       </div>
     </nav>
-    <main>
-      <div>음식사진</div>
-      <div>페이지 설명</div>
-    </main>
     <script src="buguer.js"></script>
   </body>
 </html>

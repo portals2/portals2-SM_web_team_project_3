@@ -4,6 +4,7 @@ const navlinks = document.querySelectorAll(".nav-links li");
 
 
 const navAnimation = () => {
+  // forEach는 for문과 같다.
   navlinks.forEach((link, index) => {
     // 애니메이션이 있을 때
     if (link.style.animation) {
@@ -31,29 +32,7 @@ const navSlide = () => {
   burger.addEventListener("click", handleNav);
 };
 
-
-
-
-// 가로 길이에 따라서 스타일 이름을 변경한다.
-const setNavTransition = (width) => {
-  if (width > 768) {
-    nav.style.transition = "";
-  } else {
-    nav.style.transition = "asdasdasd";
-  }
-};
-
-// 실시간 가로 측정
-const handleResize = () => {
-  const width = event.target.innerWidth;
-  setNavTransition(width);
-};
-
-
-
 const init = () => {
-  // Toggle Nav
-  window.addEventListener("resize", handleResize);
   navSlide();
 };
 

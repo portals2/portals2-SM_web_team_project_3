@@ -86,6 +86,7 @@
   
     .nav-active {
       transform: translateX(0%);
+      z-index: 1;
     }
   
     @keyframes navLinkFade {
@@ -112,3 +113,10 @@
   .toggle .line3 {
     transform: rotate(45deg) translate(-5px, -6px);
   }
+
+  main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: minmax(100px, auto);
+  }
+  
