@@ -1,3 +1,5 @@
+<?php include $_SERVER['DOCUMENT_ROOT']."/portals2-SM_web_team_project_3/php/header.php";?>
+
 <!DOCTYPE html>
 <html lang="en">
 <!--뒤로가기 전페이지 ?-->
@@ -8,32 +10,11 @@
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
     <meta name="format-detection" content="telephone=no">
     <title>미쉐린 가이드 - 상세페이지</title>
-    <link rel="stylesheet" href="res_detail.css">
-    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="/portals2-SM_web_team_project_3/css/res_detail.css">
 </head>
 
 <body>
-    <nav>
-        <div class="logo">
-            <h4>미쉐린 서울 2022</h4>
-        </div>
-        <!-- 메뉴 안에 나오는 글 -->
-        <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Work</a></li>
-            <li><a href="#">Ya Caramba!</a></li>
-        </ul>
-        <!-- 줄 새개 -->
-        <div class="burger">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-        </div>
-    </nav>
-    <script src="buguer.js"></script>
-    <!--header//-->
-
+    <!--header-->
     <main class="inner">
         <div class="wrap">
             <div class="img_wrap">
@@ -60,15 +41,8 @@
             </div>
         </div>
     </main>
-
-    <footer class="footer">
-        <div class="inner">
-            <a href="https://guide.michelin.com/kr/ko">
-                        미쉐린 가이드 2022
-                        </a>
-            <span class="email"> abcdef@naver.com </span>
-        </div>
-    </footer>
 </body>
 
 </html>
+
+<?php include $_SERVER['DOCUMENT_ROOT']."/portals2-SM_web_team_project_3/php/footer.php";?>

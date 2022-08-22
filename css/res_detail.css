@@ -80,3 +80,7 @@ footer .inner {
 .tel {
     margin-top: 1em;
 }
+
+.inner a {
+    text-decoration-line: none;
+}
