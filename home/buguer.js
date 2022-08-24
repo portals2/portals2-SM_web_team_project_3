@@ -38,13 +38,13 @@ const init = () => {
 
 init();
 
-//  햄버거
+//  왼쪽 햄버거
 
 const burger_t = document.querySelector(".burger_t");
 const nav_t = document.querySelector(".nav-links_t");
 const navlinks_t = document.querySelectorAll(".nav-links_t li");
 
-function sibal(){
+
 
   const navAnimation_t = () => {
     // forEach는 for문과 같다.
@@ -85,6 +85,6 @@ function sibal(){
   
   init_t();
 
-}
 
-sibal();
+
+

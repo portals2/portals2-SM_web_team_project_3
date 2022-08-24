@@ -114,23 +114,33 @@ function initMap() {
         handleLocationError(false, infoWindow, map.getCenter());
       }
     });
+
+//*** 맵에서 직접 추가는 연기 ***
 // >> 아니지 map.html에 <ul>nav-links_t에 div로 정보만 추가 시키면 
 // 여기서 애니메이션으로 동작하는 거니까 
 // map.js에서 html로 바로 추가 시켜주자!! (for문 이용하기)
 
 // css적용 시켜서 애니메이션 적용 시키기
 //*** 정 안되면 ㅣli a ㅣ에 다 class 적용
-    const nav_t = document.querySelector(".nav-links_t");
-    
-    const new_li = document.createElement('li');
-    const new_a = document.createElement('a');
-    
-    const newText = document.createTextNode('안녕하세요!');
 
-    new_a.appendChild(newText);
-    new_li.appendChild(new_a);
-    nav_t.appendChild(new_li);
-    new_a.href='#'
+    // const nav_t = document.querySelector(".nav-links_t");
+    
+    // const new_li = document.createElement('li');
+    // const new_a = document.createElement('a');
+    
+    // const newText = document.createTextNode('안녕하세요!');
+
+    // new_a.appendChild(newText);
+    // new_a.setAttribute("id", "myId");
+    // new_li.appendChild(new_a);
+    // nav_t.appendChild(new_li);
+    // new_a.href='#'
+
+    // window.onload = function() {   
+    //   document.getElementById("myId").setAttribute("class", "my");
+      
+    // }
+  
 
     // new_li.style.cssText = "list-style: none;";
     // new_a.style.cssText = "color: rgb(226, 226, 226); text-decoration: none; letter-spacing: 3px; font-weight: bold; font-size: 14px; z-index:2";
@@ -164,11 +174,6 @@ const icon = {
 };
 
 
-function ra_list() {
-
-  
-  
-}
 
 
 
